@@ -11,7 +11,7 @@ render(){
     return <div>
         <div className="header">
             <div className="logo"><img src={logo} alt='logo'/></div>
-        </div>;
+        </div>
     </div>
     
 }
