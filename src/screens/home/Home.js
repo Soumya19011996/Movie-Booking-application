@@ -3,6 +3,8 @@ import "./Home.css";
 import Header from "../../common/Header/Header.js"
 import GridListBanner from "../../common/GridListBanner";
 import Movielistdisplay from "../../common/Movielistdisplay";
+import {FormControl,InputLabel ,Input,} from '@material-ui/core';
+import MovieFilter from "../../common/MovieFilter";
 
 class Home extends React.Component {
     render() {
@@ -18,12 +20,11 @@ class Home extends React.Component {
                         <Movielistdisplay />
                     </div>
                     <div className="right">
-
+                    <MovieFilter />
                     </div>
                 </div>
             </div>
         );
     }
 }
-
 export default Home;

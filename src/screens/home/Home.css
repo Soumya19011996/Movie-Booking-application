@@ -16,3 +16,11 @@
 .right{
     width: 24%;
 } 
+#my-input{
+    margin:theme.spacing.unit;
+    min-width: 240;
+    max-width: 240;
+}
+#header-input{
+    color: theme.palette.primary.light;
+}
